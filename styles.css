@@ -50,7 +50,7 @@
 #getQuote:hover{
   background-color: #F47C7C;
 }
-@media screen and (max-width:767px) {
+@media screen and (min-width:300px) and (max-width:950px){
  #wrap{
     position: absolute;
     top: 50%;
