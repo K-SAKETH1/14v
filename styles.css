@@ -22,12 +22,12 @@
     margin: auto 0;
 }
 .buttondiv{
-    padding: 3%;
+    padding: 4%;
 }
 .col{
     color: #874C62;
 }
-#quotes{
+.quotes{
     text-align: center;
     background-color: white;
     width: 380px;
@@ -38,24 +38,30 @@
     font-family: 'Ubuntu', sans-serif;
     font-weight: 600;
 }
-#getQuote{
+.getQuote{
     text-align: center;
     padding: 2%;
-    width: 38px;
+    width: 180px;
     border-radius: 10px;
     background-color: #874C62;
     color: #Ffffff;
     transition: all 0.5s;
+    font-family: 'Manrope', sans-serif;
+
 }
 #getQuote:hover{
-  background-color: #F47C7C;
+  background-color: #C65D7B;
+  color: black;
 }
 @media screen and (min-width:300px) and (max-width:950px){
  #wrap{
-     padding:0%;
+    padding: 0%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+ }
+ #quotes{
+    width: 480px;
  }
 }
